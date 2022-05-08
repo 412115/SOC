@@ -1,0 +1,143 @@
+17:05:36 INFO  : Registering command handlers for SDK TCF services
+17:05:37 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\user\OneDrive\SOC\GPIO_Interrupt_tutorial\GPIO_Interrupt_tutorial.sdk\temp_xsdb_launch_script.tcl
+17:05:40 INFO  : XSCT server has started successfully.
+17:05:40 INFO  : Successfully done setting XSCT server connection channel  
+17:05:40 INFO  : Successfully done setting SDK workspace  
+17:05:40 INFO  : Processing command line option -hwspec C:/Users/user/OneDrive/SOC/GPIO_Interrupt_tutorial/GPIO_Interrupt_tutorial.sdk/design_1_wrapper.hdf.
+17:21:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1652001370386,  Project:1652000086319
+17:21:17 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification located at C:/Users/user/OneDrive/SOC/GPIO_Interrupt_tutorial/GPIO_Interrupt_tutorial.sdk/design_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:21:28 INFO  : Project design_1_wrapper_hw_platform_0's source hardware specification location will not be monitored anymore.
+17:21:59 INFO  : Registering command handlers for SDK TCF services
+17:21:59 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\user\OneDrive\SOC\GPIO_Interrupt_tutorial\GPIO_Interrupt_tutorial.sdk\temp_xsdb_launch_script.tcl
+17:22:02 INFO  : XSCT server has started successfully.
+17:22:03 INFO  : Successfully done setting XSCT server connection channel  
+17:22:03 INFO  : Successfully done setting SDK workspace  
+17:22:03 INFO  : Processing command line option -hwspec C:/Users/user/OneDrive/SOC/GPIO_Interrupt_tutorial/GPIO_Interrupt_tutorial.sdk/design_1_wrapper.hdf.
+17:26:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248707778" && level==0} -index 1' command is executed.
+17:26:53 INFO  : FPGA configured successfully with bitstream "C:/Users/user/OneDrive/SOC/GPIO_Interrupt_tutorial/GPIO_Interrupt_tutorial.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:27:09 WARN  : Given IPC port value is invalid. Using default port 2350
+17:27:09 WARN  : Given XMD timeout value is invalid. Using default value of 50000
+17:27:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:49 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1083)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:27:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:27:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:09 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:10 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1083)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:514)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:616)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+17:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:28:10 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:12 INFO  : System reset is completed.
+17:31:12 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:13 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:15 INFO  : FPGA configured successfully with bitstream "C:/Users/user/OneDrive/SOC/GPIO_Interrupt_tutorial/GPIO_Interrupt_tutorial.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:31:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:16 INFO  : ps7_init is completed.
+17:31:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:16 INFO  : ps7_post_config is completed.
+17:31:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:16 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:31:17 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:32:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:32:53 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:32:54 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:37:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:38:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:39:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248707778" && level==0} -index 1' command is executed.
+17:39:07 INFO  : FPGA configured successfully with bitstream "C:/Users/user/OneDrive/SOC/GPIO_Interrupt_tutorial/GPIO_Interrupt_tutorial.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:39:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:14 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:15 INFO  : System reset is completed.
+17:39:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:15 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 INFO  : FPGA configured successfully with bitstream "C:/Users/user/OneDrive/SOC/GPIO_Interrupt_tutorial/GPIO_Interrupt_tutorial.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 INFO  : ps7_init is completed.
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 INFO  : ps7_post_config is completed.
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:18 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:39:19 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:40:39 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:40:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:40:40 WARN  : Given XMD transaction timeout value is invalid. Using default value of 60000 milli seconds
+17:50:05 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
